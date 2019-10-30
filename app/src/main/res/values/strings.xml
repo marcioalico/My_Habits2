@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">My Habits</string>
+    <string name="eliminar_todo">Eliminar todo</string>
+    <string name="tarea">Tarea</string>
+    <string name="cantidad_de_dias">Cantidad de Dias</string>
+    <string name="agregar_tarea">Agregar tarea</string>
 </resources>

@@ -11,22 +11,22 @@
         android:id="@+id/editar_tarea"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Tarea"
         android:layout_margin="16dp"
-        android:inputType="text"/>
+        android:hint="@string/tarea"
+        android:inputType="text" />
 
     <EditText
         android:id="@+id/cantidad_dias"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Cantidad de Dias"
         android:layout_margin="16dp"
-        android:inputType="number"/>
+        android:hint="@string/cantidad_de_dias"
+        android:inputType="number" />
 
     <Button
         android:id="@+id/btAgregar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Agregar tarea"/>
+        android:text="@string/agregar_tarea" />
 
 </LinearLayout>

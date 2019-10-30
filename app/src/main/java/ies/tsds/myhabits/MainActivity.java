@@ -11,6 +11,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.ContextMenu;
 import android.view.LayoutInflater;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
@@ -110,8 +111,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void eliminarTarea(String key) {
-
-
+        todoDb.child(key).removeValue();
     }
 
     private void mostrarMensajeActz(final String key, ToDo item) {
@@ -149,5 +149,21 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         builder.show();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu){
+
+        getMenuInflater().inflate(R.menu.menu_principal, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        if(item.getItemId() == R.id.eliminar_todo){
+            todoDb.removeValue();
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

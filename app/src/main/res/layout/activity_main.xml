@@ -17,9 +17,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        app:useCompatPadding="true"
-        app:elevation="4dp"
         android:clickable="true"
-        app:srcCompat="@android:drawable/ic_input_add" />
+        android:tint="#FFFFFF"
+        app:backgroundTint="#e3b630"
+        app:elevation="4dp"
+        app:fabSize="auto"
+        app:maxImageSize="32dp"
+        app:srcCompat="@android:drawable/ic_input_add"
+        app:useCompatPadding="true" />
 
 </RelativeLayout>

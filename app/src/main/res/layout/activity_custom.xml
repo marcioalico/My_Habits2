@@ -13,10 +13,11 @@
         />
 
     <EditText
-        android:id="@+id/editar_actz_dias"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+    android:id="@+id/editar_actz_dias"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
     />
+
 
 </LinearLayout>
