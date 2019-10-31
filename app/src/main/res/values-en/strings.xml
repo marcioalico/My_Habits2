@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Habits</string>
+    <string name="eliminar_todo">Delete all</string>
+    <string name="tarea">Task</string>
+    <string name="cantidad_de_dias">Amount of Days</string>
+    <string name="agregar_tarea">Add task</string>
+</resources>
