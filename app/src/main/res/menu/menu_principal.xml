@@ -6,4 +6,10 @@
         android:id="@+id/eliminar_todo"
         android:title="@string/eliminar_todo"
         app:showAsAction="never" />
+
+    <item
+        android:id="@+id/acerca_de"
+        android:title="@string/acerca_de"
+        app:showAsAction="never" />
+
 </menu>

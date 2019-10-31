@@ -4,4 +4,7 @@
     <string name="tarea">Task</string>
     <string name="cantidad_de_dias">Amount of Days</string>
     <string name="agregar_tarea">Add task</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="MyHabits">MyHabits</string>
+    <string name="IES">Instituto IES - Santa Fe</string>
 </resources>

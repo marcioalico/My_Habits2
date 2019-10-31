@@ -7,25 +7,39 @@
     app:cardElevation="4dp"
     app:cardUseCompatPadding="true">
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="8dp">
-
-
-    <TextView
-        android:id="@+id/texto_tarea"
-        style="@style/TextAppearance.AppCompat.Headline"
+    <android.support.v7.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/tarea" />
+        android:layout_height="wrap_content" >
 
-    <TextView
-        android:id="@+id/texto_dias"
-        style="@style/TextAppearance.AppCompat.Body1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/cantidad_de_dias" />
-    </LinearLayout>
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"
+            android:layout_marginRight="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+
+            <TextView
+                android:id="@+id/texto_tarea"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tarea" />
+
+            <TextView
+                android:id="@+id/texto_dias"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cantidad_de_dias" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
 </android.support.v7.widget.CardView>

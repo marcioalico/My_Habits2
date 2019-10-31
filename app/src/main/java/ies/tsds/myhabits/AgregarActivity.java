@@ -56,6 +56,11 @@ public class AgregarActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    private void acercaDeVista() {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+
     private void guardarEnFirebase() {
 
         String tarea = editarTarea.getText().toString();
